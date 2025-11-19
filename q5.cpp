@@ -1,3 +1,7 @@
+/*
+Frequency of Each Digit
+Print how many times each digit (0–9) occurs in a number.
+*/
 #include<iostream>
 using namespace std;
 
