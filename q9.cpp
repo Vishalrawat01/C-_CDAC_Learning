@@ -16,14 +16,15 @@ int main(){
   int b ;
   cin >> b ;
 
-  int pow;
+  int temp = 1 ;
+  
 
 
   for(int i=1 ; i<=b ; i++){
-    int temp = a*i;
-    pow = temp ;
-
+    temp *= a;
   }
+
+  int pow = temp ;
 
   cout << "Power is: " << pow;
 }
